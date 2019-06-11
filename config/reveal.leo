@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,43 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20190610223527.1"><vh>封面投影片1</vh>
+<v t="leo.20190610223527.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610223522.1"><vh>封面投影片2</vh>
+<v t="leo.20190610223522.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610224928.1"><vh>封面投影片3</vh>
+<v t="leo.20190610224928.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610225445.1"><vh>封面投影片4</vh>
+<v t="leo.20190610225445.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190610225823.1"><vh>封面投影片4</vh>
+<v t="leo.20190610225823.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -326,5 +338,89 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20190610223522.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610223522.2">## 網路連線配置與設定  
+
+
+[IPv6設定](https://s40723145.github.io/wcm2019-45/content/%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E8%A8%AD%E5%AE%9A.html)
+
+
+</t>
+<t tx="leo.20190610223527.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610223527.2">## 電腦組裝與操作系統安裝 
+
+### 以 Virtualbox 虛擬主機配置與設定取代實體安裝
+
+
+[Ubuntu系統安裝](https://s40723145.github.io/wcm2019-45/content/Ubuntu%E7%B3%BB%E7%B5%B1%E5%AE%89%E8%A3%9D.html)
+
+[以FileZilla將檔案傳至遠端](https://s40723145.github.io/wcm2019-45/content/FileZilla.html)
+
+[練習建立系統伺服主機](https://s40723145.github.io/wcm2019-45/content/Virtual%20host.html)
+
+
+</t>
+<t tx="leo.20190610224928.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610224928.2">## Github 倉儲與 CMSimfly 配置 
+
+[個人倉儲](https://s40723145.github.io/wcm2019-45/content/)
+
+[分組倉儲](https://mdewcm2019.github.io/wcm2019-task-g4/content/)</t>
+<t tx="leo.20190610225445.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610225445.2">## CMSimfly 操作
+
+[GIT指令](https://s40723145.github.io/wcm2019-45/content/Git%20%E6%8C%87%E4%BB%A4.html)
+
+[SSH Key](https://s40723145.github.io/wcm2019-45/content/%E5%BB%BA%E7%AB%8BSSH%20key.html)
+
+[GitExtensions](https://s40723145.github.io/wcm2019-45/content/GitExtensions.html)</t>
+<t tx="leo.20190610225823.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190610225823.2">## Github倉儲歷程資料
+
+[分組改版證明](https://github.com/mdewcm2019/wcm2019-task-g4/commits?author=s40723145)
+
+[個人改版證明](https://github.com/s40723145/wcm2019-45/commits/gh-pages)
+
+</t>
 </tnodes>
 </leo_file>
